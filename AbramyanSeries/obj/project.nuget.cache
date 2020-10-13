@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dKYI3FcRF9HdfMMP+nVSK8gYi0RRG5iXaXlK9Jfuvm+j+lQ1B8lc2f8i5HGdxTL30g4yh8KS9tvL2BoMjyHWPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\glebo\\source\\repos\\AbramyanSeries\\AbramyanSeries\\AbramyanSeries.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\glebo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\glebo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

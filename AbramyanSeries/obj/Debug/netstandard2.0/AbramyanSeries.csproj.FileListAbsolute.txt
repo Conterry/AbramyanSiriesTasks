@@ -1,0 +1,9 @@
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\bin\Debug\netstandard2.0\AbramyanSeries.deps.json
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\bin\Debug\netstandard2.0\AbramyanSeries.dll
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\bin\Debug\netstandard2.0\AbramyanSeries.pdb
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\obj\Debug\netstandard2.0\AbramyanSeries.csprojAssemblyReference.cache
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\obj\Debug\netstandard2.0\AbramyanSeries.AssemblyInfoInputs.cache
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\obj\Debug\netstandard2.0\AbramyanSeries.AssemblyInfo.cs
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\obj\Debug\netstandard2.0\AbramyanSeries.csproj.CoreCompileInputs.cache
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\obj\Debug\netstandard2.0\AbramyanSeries.dll
+C:\Users\glebo\source\repos\AbramyanSeries\AbramyanSeries\obj\Debug\netstandard2.0\AbramyanSeries.pdb
