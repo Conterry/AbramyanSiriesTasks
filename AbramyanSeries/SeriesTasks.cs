@@ -234,6 +234,35 @@ namespace AbramyanSeries
 
         public void Series25()
         {
+            int n = 6;
+            int[] a = { 1, 0, 3, 4, 0, 6 };
+            int s = 0, d = 0;
+
+            for(int i=0; i<n; i++)
+            {
+                if(d == 1)
+                {
+                    s += a[i];
+                }
+                if(a[i] == 0)
+                {
+                    d++;
+                }
+            }
+
+            Console.WriteLine(s);
+
+        }
+
+        public void Series27()
+        {
+            int n = 6;
+            double[] a = { 1.1, 2.4, 4.6, 7.5, 9.4, 11.1 };
+
+            for(int i=0; i < n; i++)
+            {
+                Console.WriteLine(Math.Pow(a[i], i));
+            }
 
         }
 
