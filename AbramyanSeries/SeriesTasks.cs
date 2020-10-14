@@ -1,10 +1,18 @@
 ﻿using System;
+using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 
 namespace AbramyanSeries
 {
     public class SeriesTasks
     {
+
+
+        public void Main()
+        {
+            Series17();
+        }
+
 
         public double Series1(double[] a)
         {
@@ -114,6 +122,121 @@ namespace AbramyanSeries
 
             Console.WriteLine(s);
         }
+
+
+        public int Series15(int[] a, int k)
+        {
+
+            int i = 0;
+
+            while (a[i] != 0 )
+            {
+                if(a[i] > k)
+                {
+                    return i;
+                }
+                i++;
+            }
+
+            return 0;
+
+        }
+
+        public void Series17()
+        {
+            double b = 3.8;
+            int n = 10;
+            double[] a = { 1, 3, 4, 6, 8, 10, 12, 12.3, 13.9, 14.9 };
+
+            for(int i=0; i<n; )
+            {
+                Console.WriteLine(a[i]);
+                if (a[i] < b)
+                {
+                    Console.WriteLine(b);
+                }
+                i++;
+            }
+        }
+
+        public void Series19()
+        {
+            int n = 4, k = 0;
+            int[] a = { 4, 1, 8, 3 };
+
+            for (int i = 1; i < n; i++)
+            {
+                if (a[i] < a[i - 1])
+                {
+                    Console.WriteLine(a[i]);
+                    k++;
+                }
+            }
+
+            Console.WriteLine(k);
+
+        }
+
+
+        public bool Series21(int n, double[] a)
+        {
+
+            int Count = 0;
+
+            for(int i = 0; i < n-1; i++)
+            {
+                if (a[i] < a[i + 1])
+                {
+                    Count++;
+                }
+            }
+
+            if(Count == n - 2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        public void Series23()
+        {
+            int n = 5;
+            double[] a = { 2, 3, 2.1, 4, 7.1 };
+            int f = 0, g = 0;
+
+            for(int i=1;i<n-1; i++)
+            {
+                if((a[i]<a[i-1]) && (a[i] < a[i + 1]) || (a[i] > a[i - 1]) && (a[i] > a[i + 1]))
+                {
+                    f++;
+                }
+                else
+                {
+                    g = i;
+                    break;
+                }
+            }
+
+            if(f == n - 3)
+            {
+                Console.WriteLine(0);
+            }
+            else
+            {
+                Console.WriteLine(g);
+            }
+
+        }
+
+        public void Series25()
+        {
+
+        }
+
 
     }
 }

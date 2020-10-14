@@ -29,5 +29,31 @@ namespace AbramyanSeries.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Series15_MasAAnd2_4()
+        {
+            int[] a = { 1, 2, -3, 4, 5, -7, 0 };
+            int k = 5;
+            int expected = 0;
+
+            SeriesTasks c = new SeriesTasks();
+            double actual = c.Series15(a, k);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void Series21_NandMasA_4()
+        {
+            int n = 4;
+            double[] a = { 1.2, 2.3, 3.4, 5.4 };
+            bool expected = false;
+
+            SeriesTasks c = new SeriesTasks();
+            bool actual = c.Series21(n, a);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
